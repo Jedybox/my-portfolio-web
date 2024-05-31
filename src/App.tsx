@@ -1,11 +1,12 @@
 import React from 'react';
+import Profile from './assets/profile-pic.jpg';
 import './App.css';
 
 function App() {
   return (
     <>
       <aside>
-        <img src="" alt="Profile-pic" />
+        <img src={Profile} alt="Profile-pic" />
         <h1 className='Name'>Jhon Ericsson Ytac</h1>
         <nav>
           <ul>
